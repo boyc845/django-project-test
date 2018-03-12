@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% extends "appLearnTemplates/base.html" %}
+    {% block body_block %}
+
+        <h1>Welcome to applearntemplates index</h1>
+        {{ text|upper}}
+        {{ number|add:"99" }}
+        {{ text|cut:'world' }}
+    {% endblock %}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Index</title>#}
+{#</head>#}
+{#<body>#}
+{#    <h1>Welcome to Index</h1>#}
+{#</body>#}
+{#</html>#}
