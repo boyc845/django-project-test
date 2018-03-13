@@ -29,7 +29,7 @@ SECRET_KEY = 'jntunux($%yp8)a@uedq59zpqqh4&6wwhj&4$&^6ytwg(@rqw4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [boyc845.pythonanywhere.com]
+ALLOWED_HOSTS = ['boyc845.pythonanywhere.com']
 
 
 # Application definition
